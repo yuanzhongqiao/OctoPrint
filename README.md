@@ -1,152 +1,138 @@
-<p align="center"><img src="https://octoprint.org/assets/img/logo.png" alt="OctoPrint's logo" /></p>
-
-<h1 align="center">OctoPrint</h1>
-
-<p align="center">
-  <img src="https://img.shields.io/github/v/release/OctoPrint/OctoPrint?logo=github&logoColor=white" alt="GitHub release"/>
-  <img src="https://img.shields.io/pypi/v/OctoPrint?logo=python&logoColor=white" alt="PyPI"/>
-  <img src="https://img.shields.io/github/actions/workflow/status/OctoPrint/OctoPrint/build.yml?branch=master" alt="Build status"/>
-  <a href="https://community.octoprint.org"><img src="https://img.shields.io/discourse/users?label=forum&logo=discourse&logoColor=white&server=https%3A%2F%2Fcommunity.octoprint.org" alt="Community Forum"/></a>
-  <a href="https://discord.octoprint.org"><img src="https://img.shields.io/discord/704958479194128507?label=discord&logo=discord&logoColor=white" alt="Discord"/></a>
-  <a href="https://octoprint.org/conduct/"><img src="https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg" alt="Contributor Covenant"/></a>
-  <a href="https://github.com/psf/black"><img src="https://img.shields.io/badge/code%20style-black-000000.svg" alt="Code style: black"/></a>
-  <a href="https://github.com/prettier/prettier"><img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square" alt="Code style: prettier"/></a>
-  <a href="https://pycqa.github.io/isort/"><img src="https://img.shields.io/badge/%20imports-isort-%231674b1" alt="Imports: isort"/></a>
-  <a href="https://github.com/pre-commit/pre-commit"><img src="https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white" alt="pre-commit"/></a>
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p align="center" dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/33da288e35b5e01f85fd3cb8247691b065d05474308f98e6d082918227600af3/68747470733a2f2f6f63746f7072696e742e6f72672f6173736574732f696d672f6c6f676f2e706e67"><img src="https://camo.githubusercontent.com/33da288e35b5e01f85fd3cb8247691b065d05474308f98e6d082918227600af3/68747470733a2f2f6f63746f7072696e742e6f72672f6173736574732f696d672f6c6f676f2e706e67" alt="八图打印的标志" data-canonical-src="https://octoprint.org/assets/img/logo.png" style="max-width: 100%;"></a></p>
+<h1 align="center" tabindex="-1" dir="auto"><a id="user-content-octoprint" class="anchor" aria-hidden="true" tabindex="-1" href="#octoprint"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">奥克托打印</font></font></h1>
+<p align="center" dir="auto">
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/bbbb2a98c9e4cf589c4266ebbccec9284622bd9ec8079ffe030d024b7a4e9ce2/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f4f63746f5072696e742f4f63746f5072696e743f6c6f676f3d676974687562266c6f676f436f6c6f723d7768697465"><img src="https://camo.githubusercontent.com/bbbb2a98c9e4cf589c4266ebbccec9284622bd9ec8079ffe030d024b7a4e9ce2/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f4f63746f5072696e742f4f63746f5072696e743f6c6f676f3d676974687562266c6f676f436f6c6f723d7768697465" alt="GitHub 发布" data-canonical-src="https://img.shields.io/github/v/release/OctoPrint/OctoPrint?logo=github&amp;logoColor=white" style="max-width: 100%;"></a>
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/c7227b93f2c3bfa85bba87ab43127f73594d023860c560dd68f4cdaa60beac42/68747470733a2f2f696d672e736869656c64732e696f2f707970692f762f4f63746f5072696e743f6c6f676f3d707974686f6e266c6f676f436f6c6f723d7768697465"><img src="https://camo.githubusercontent.com/c7227b93f2c3bfa85bba87ab43127f73594d023860c560dd68f4cdaa60beac42/68747470733a2f2f696d672e736869656c64732e696f2f707970692f762f4f63746f5072696e743f6c6f676f3d707974686f6e266c6f676f436f6c6f723d7768697465" alt="皮伊" data-canonical-src="https://img.shields.io/pypi/v/OctoPrint?logo=python&amp;logoColor=white" style="max-width: 100%;"></a>
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/9564b5a189690b740f55c07b7235efb6484003c433144d1f195f9b5ba6e2aabd/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f616374696f6e732f776f726b666c6f772f7374617475732f4f63746f5072696e742f4f63746f5072696e742f6275696c642e796d6c3f6272616e63683d6d6173746572"><img src="https://camo.githubusercontent.com/9564b5a189690b740f55c07b7235efb6484003c433144d1f195f9b5ba6e2aabd/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f616374696f6e732f776f726b666c6f772f7374617475732f4f63746f5072696e742f4f63746f5072696e742f6275696c642e796d6c3f6272616e63683d6d6173746572" alt="构建状态" data-canonical-src="https://img.shields.io/github/actions/workflow/status/OctoPrint/OctoPrint/build.yml?branch=master" style="max-width: 100%;"></a>
+  <a href="https://community.octoprint.org" rel="nofollow"><img src="https://camo.githubusercontent.com/858063145be936294eb1a471ee025489bd0bc206d76a28fd72065143b1f9dcba/68747470733a2f2f696d672e736869656c64732e696f2f646973636f757273652f75736572733f6c6162656c3d666f72756d266c6f676f3d646973636f75727365266c6f676f436f6c6f723d7768697465267365727665723d6874747073253341253246253246636f6d6d756e6974792e6f63746f7072696e742e6f7267" alt="社区论坛" data-canonical-src="https://img.shields.io/discourse/users?label=forum&amp;logo=discourse&amp;logoColor=white&amp;server=https%3A%2F%2Fcommunity.octoprint.org" style="max-width: 100%;"></a>
+  <a href="https://discord.octoprint.org" rel="nofollow"><img src="https://camo.githubusercontent.com/cd6aeaef6835ff481502a4ec3fe663c8a6c1f46c6b575cc59880d83bb8489406/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3730343935383437393139343132383530373f6c6162656c3d646973636f7264266c6f676f3d646973636f7264266c6f676f436f6c6f723d7768697465" alt="不和谐" data-canonical-src="https://img.shields.io/discord/704958479194128507?label=discord&amp;logo=discord&amp;logoColor=white" style="max-width: 100%;"></a>
+  <a href="https://octoprint.org/conduct/" rel="nofollow"><img src="https://camo.githubusercontent.com/20fe195dfecc3508e105ec04e6a1acea97bd409201ac6ca09c07942c8a8e4ad2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f436f6e7472696275746f72253230436f76656e616e742d76322e3025323061646f707465642d6666363962342e737667" alt="贡献者契约" data-canonical-src="https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg" style="max-width: 100%;"></a>
+  <a href="https://github.com/psf/black"><img src="https://camo.githubusercontent.com/7d770c433d6198d89f8c1e2f187b904a9721d176259d0e97157337741cc8e837/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f636f64652532307374796c652d626c61636b2d3030303030302e737667" alt="代码风格：黑色" data-canonical-src="https://img.shields.io/badge/code%20style-black-000000.svg" style="max-width: 100%;"></a>
+  <a href="https://github.com/prettier/prettier"><img src="https://camo.githubusercontent.com/c25ebde472e0782be29045b182f0ae67c8e8e2d2897e3d65ca8f9a200c787c98/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f636f64655f7374796c652d70726574746965722d6666363962342e7376673f7374796c653d666c61742d737175617265" alt="代码风格：更漂亮" data-canonical-src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square" style="max-width: 100%;"></a>
+  <a href="https://pycqa.github.io/isort/" rel="nofollow"><img src="https://camo.githubusercontent.com/f2ff652e4fce91d8055c4aa14262f4bb035c117904d1a00ded4082ccb0f46d58/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f253230696d706f7274732d69736f72742d253233313637346231" alt="进口：异类" data-canonical-src="https://img.shields.io/badge/%20imports-isort-%231674b1" style="max-width: 100%;"></a>
+  <a href="https://github.com/pre-commit/pre-commit"><img src="https://camo.githubusercontent.com/f9f3d4b9da2ae7190cc5ce42cbdb9d04ce63bec0fd0af14e0e115218fceac615/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7072652d2d636f6d6d69742d656e61626c65642d627269676874677265656e3f6c6f676f3d7072652d636f6d6d6974266c6f676f436f6c6f723d7768697465" alt="预提交" data-canonical-src="https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&amp;logoColor=white" style="max-width: 100%;"></a>
 </p>
-
-OctoPrint provides a snappy web interface for controlling consumer 3D printers. It is Free Software
-and released under the [GNU Affero General Public License V3](https://www.gnu.org/licenses/agpl-3.0.html).
-
-Its website can be found at [octoprint.org](https://octoprint.org/?utm_source=github&utm_medium=readme).
-
-The community forum is available at [community.octoprint.org](https://community.octoprint.org/?utm_source=github&utm_medium=readme). It also serves as a central knowledge base.
-
-An invite to the Discord server can be found at [discord.octoprint.org](https://discord.octoprint.org).
-
-The FAQ can be accessed by following [faq.octoprint.org](https://faq.octoprint.org/?utm_source=github&utm_medium=readme).
-
-The documentation is located at [docs.octoprint.org](https://docs.octoprint.org).
-
-The official plugin repository can be reached at [plugins.octoprint.org](https://plugins.octoprint.org/?utm_source=github&utm_medium=readme).
-
-**OctoPrint's development wouldn't be possible without the [financial support by its community](https://octoprint.org/support-octoprint/?utm_source=github&utm_medium=readme).
-If you enjoy OctoPrint, please consider becoming a regular supporter!**
-
-![Screenshot](https://octoprint.org/assets/img/screenshot-readme.png)
-
-You are currently looking at the source code repository of OctoPrint. If you already installed it
-(e.g. by using the Raspberry Pi targeted distribution [OctoPi](https://github.com/guysoft/OctoPi)) and only
-want to find out how to use it, [the documentation](https://docs.octoprint.org/) might be of more interest for you. You might also want to subscribe to join
-[the community forum at community.octoprint.org](https://community.octoprint.org) where there are other active users who might be
-able to help you with any questions you might have.
-
-## Contributing
-
-Contributions of all kinds are welcome, not only in the form of code but also with regards to the
-[official documentation](https://docs.octoprint.org/), debugging help
-in the [bug tracker](https://github.com/OctoPrint/OctoPrint/issues), support of other users on
-[the community forum at community.octoprint.org](https://community.octoprint.org) or
-[the official discord at discord.octoprint.org](https://discord.octoprint.org)
-and also [financially](https://octoprint.org/support-octoprint/?utm_source=github&utm_medium=readme).
-
-If you think something is bad about OctoPrint or its documentation the way it is, please help
-in any way to make it better instead of just complaining about it -- this is an Open Source Project
-after all :)
-
-For information about how to go about submitting bug reports or pull requests, please see the project's
-[Contribution Guidelines](https://github.com/OctoPrint/OctoPrint/blob/master/CONTRIBUTING.md).
-
-## Installation
-
-Installation instructions for installing from source for different operating
-systems can be found [on the forum](https://community.octoprint.org/tags/c/support/guides/15/setup).
-
-If you want to run OctoPrint on a Raspberry Pi, you really should take a look at [OctoPi](https://github.com/guysoft/OctoPi)
-which is a custom SD card image that includes OctoPrint plus dependencies.
-
-The generic steps that should basically be done regardless of operating system
-and runtime environment are the following (as *regular
-user*, please keep your hands *off* of the `sudo` command here!) - this assumes
-you already have Python 3.7+, pip and virtualenv and their dependencies set up on your system:
-
-1. Create a user-owned virtual environment therein: `virtualenv venv`. If you want to specify a specific python
-   to use instead of whatever version your system defaults to, you can also explicitly require that via the `--python`
-   parameter, e.g. `virtualenv --python=python3 venv`.
-2. Install OctoPrint *into that virtual environment*: `./venv/bin/pip install OctoPrint`
-
-You may then start the OctoPrint server via `/path/to/OctoPrint/venv/bin/octoprint`, see [Usage](#usage)
-for details.
-
-After installation, please make sure you follow the first-run wizard and set up
-access control as necessary.
-
-## Dependencies
-
-OctoPrint depends on a few python modules to do its job. Those are automatically installed when installing
-OctoPrint via `pip`.
-
-OctoPrint currently supports Python 3.7, 3.8, 3.9, 3.10 and 3.11.
-
-## Usage
-
-Running the pip install via
-
-    pip install OctoPrint
-
-installs the `octoprint` script in your Python installation's scripts folder
-(which, depending on whether you installed OctoPrint globally or into a virtual env, will be in your `PATH` or not). The
-following usage examples assume that the `octoprint` script is on your `PATH`.
-
-You can start the server via
-
-    octoprint serve
-
-By default it binds to all interfaces on port 5000 (so pointing your browser to `http://127.0.0.1:5000`
-will do the trick). If you want to change that, use the additional command line parameters `host` and `port`,
-which accept the host ip to bind to and the numeric port number respectively. If for example you want the server
-to only listen on the local interface on port 8080, the command line would be
-
-    octoprint serve --host=127.0.0.1 --port=8080
-
-Alternatively, the host and port on which to bind can be defined via the config file.
-
-If you want to run OctoPrint as a daemon (only supported on Linux), use
-
-    octoprint daemon {start|stop|restart} [--pid PIDFILE]
-
-If you do not supply a custom pidfile location via `--pid PIDFILE`, it will be created at `/tmp/octoprint.pid`.
-
-You can also specify the config file or the base directory (for basing off the `uploads`, `timelapse` and `logs` folders),
-e.g.:
-
-    octoprint serve --config /path/to/another/config.yaml --basedir /path/to/my/basedir
-
-To start OctoPrint in safe mode - which disables all third party plugins that do not come bundled with OctoPrint - use
-the ``--safe`` flag:
-
-    octoprint serve --safe
-
-See `octoprint --help` for more information on the available command line parameters.
-
-OctoPrint also ships with a `run` script in its source directory. You can invoke it to start the server. It
-takes the same command line arguments as the `octoprint` script.
-
-## Configuration
-
-If not specified via the command line, the config file `config.yaml` for OctoPrint is expected in the settings folder,
-which is located at `~/.octoprint` on Linux, at `%APPDATA%/OctoPrint` on Windows and
-at `~/Library/Application Support/OctoPrint` on MacOS.
-
-A comprehensive overview of all available configuration settings can be found
-[in the docs](https://docs.octoprint.org/en/master/configuration/config_yaml.html).
-Please note that the most commonly used configuration settings can also easily
-be edited from OctoPrint's settings dialog.
-
-## Special Thanks
-
-Cross-browser testing services are kindly provided by [BrowserStack](https://www.browserstack.com/).
-
-Profiling is done with the help of [PyVmMonitor](https://www.pyvmmonitor.com).
-
-Error tracking is powered and sponsored by [Sentry](https://sentry.io).
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OctoPrint 提供了一个用于控制消费级 3D 打印机的快捷 Web 界面。它是自由软件，根据</font></font><a href="https://www.gnu.org/licenses/agpl-3.0.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GNU Affero 通用公共许可证 V3</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发布。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://octoprint.org/?utm_source=github&amp;utm_medium=readme" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其网站可以在octoprint.org</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上找到</font><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社区论坛位于</font></font><a href="https://community.octoprint.org/?utm_source=github&amp;utm_medium=readme" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">community.octoprint.org</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。它还充当中央知识库。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://discord.octoprint.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以在discord.octoprint.org</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">找到Discord 服务器的邀请</font><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://faq.octoprint.org/?utm_source=github&amp;utm_medium=readme" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以通过关注faq.octoprint.org</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">访问常见问题解答</font><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该文档位于</font></font><a href="https://docs.octoprint.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">docs.octoprint.org</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://plugins.octoprint.org/?utm_source=github&amp;utm_medium=readme" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以通过plugins.octoprint.org</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">访问官方插件存储库</font><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OctoPrint 的发展离不开</font></font><a href="https://octoprint.org/support-octoprint/?utm_source=github&amp;utm_medium=readme" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社区的资金支持</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。如果您喜欢 OctoPrint，请考虑成为定期支持者！</font></font></strong></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/a028644cbf62f57b6c43e7f44dee3d535953c7a58cbae89d28124a571120395a/68747470733a2f2f6f63746f7072696e742e6f72672f6173736574732f696d672f73637265656e73686f742d726561646d652e706e67"><img src="https://camo.githubusercontent.com/a028644cbf62f57b6c43e7f44dee3d535953c7a58cbae89d28124a571120395a/68747470733a2f2f6f63746f7072696e742e6f72672f6173736574732f696d672f73637265656e73686f742d726561646d652e706e67" alt="截屏" data-canonical-src="https://octoprint.org/assets/img/screenshot-readme.png" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您当前正在查看 OctoPrint 的源代码存储库。如果您已经安装了它（例如，通过使用 Raspberry Pi 目标发行版</font></font><a href="https://github.com/guysoft/OctoPi"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OctoPi</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）并且只想了解如何使用它，那么您可能对</font></font><a href="https://docs.octoprint.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更感兴趣。您可能还想订阅加入
+</font></font><a href="https://community.octoprint.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">community.octoprint.org 上的社区论坛</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，那里有其他活跃用户，他们可能能够帮助您解决您可能遇到的任何问题。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-contributing" class="anchor" aria-hidden="true" tabindex="-1" href="#contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">欢迎各种形式的贡献，不仅以代码的形式，还包括
+</font></font><a href="https://docs.octoprint.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">官方文档、</font></font></a><font style="vertical-align: inherit;"></font><a href="https://github.com/OctoPrint/OctoPrint/issues"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">错误跟踪器</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中的调试帮助、</font></font><a href="https://community.octoprint.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社区论坛</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上的其他用户的支持
+community.octoprint.org</font><font style="vertical-align: inherit;">或
+</font></font><a href="https://discord.octoprint.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">discord 上的官方discord .octoprint.org</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+以及</font></font><a href="https://octoprint.org/support-octoprint/?utm_source=github&amp;utm_medium=readme" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">财务</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方面。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您认为 OctoPrint 或其文档有什么不好的地方，请以任何方式帮助使其变得更好，而不仅仅是抱怨 - 毕竟这是一个开源项目:)</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关如何提交错误报告或拉取请求的信息，请参阅项目的
+</font></font><a href="https://github.com/OctoPrint/OctoPrint/blob/master/CONTRIBUTING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-installation" class="anchor" aria-hidden="true" tabindex="-1" href="#installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://community.octoprint.org/tags/c/support/guides/15/setup" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以在论坛上</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">找到从源代码安装不同操作系统的安装说明</font><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想在 Raspberry Pi 上运行 OctoPrint，您确实应该看看</font></font><a href="https://github.com/guysoft/OctoPi"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OctoPi</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
+，它是一个自定义 SD 卡映像，其中包含 OctoPrint 以及依赖项。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无论操作系统和运行时环境如何，基本上应该完成的通用步骤如下（作为</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">普通用户</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，请不要使用</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的命令</font></font><code>sudo</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">！） - 假设您已经拥有 Python 3.7+、pip 和 virtualenv 及其依赖项在您的系统上设置：</font></font></p>
+<ol dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在其中创建用户拥有的虚拟环境：</font></font><code>virtualenv venv</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">.如果您想指定要使用的特定 python 而不是系统默认的任何版本，您也可以通过参数显式要求</font></font><code>--python</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+，例如</font></font><code>virtualenv --python=python3 venv</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">.</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将 OctoPrint 安装</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到该虚拟环境中</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font><code>./venv/bin/pip install OctoPrint</code></li>
+</ol>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后您可以通过 启动OctoPrint 服务器</font></font><code>/path/to/OctoPrint/venv/bin/octoprint</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font><font style="vertical-align: inherit;">
+详细信息请参阅</font></font><a href="#usage"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用法。</font></font></a><font style="vertical-align: inherit;"></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装后，请确保遵循首次运行向导并根据需要设置访问控制。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-dependencies" class="anchor" aria-hidden="true" tabindex="-1" href="#dependencies"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">依赖关系</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OctoPrint 依赖于一些 python 模块来完成其工作。通过安装 OctoPrint 时会自动安装这些文件</font></font><code>pip</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OctoPrint 目前支持 Python 3.7、3.8、3.9、3.10 和 3.11。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-usage" class="anchor" aria-hidden="true" tabindex="-1" href="#usage"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用法</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过运行 pip install</font></font></p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>pip install OctoPrint
+</code></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="pip install OctoPrint" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将脚本安装</font></font><code>octoprint</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在Python安装的脚本文件夹中（该文件夹是否在您的Python安装中，具体取决于您是全局安装OctoPrint还是安装到虚拟环境中</font></font><code>PATH</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。以下使用示例假设</font></font><code>octoprint</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">脚本位于您的</font></font><code>PATH</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">.</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以通过启动服务器</font></font></p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>octoprint serve
+</code></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="octoprint serve" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">默认情况下，它绑定到端口 5000 上的所有接口（因此将浏览器指向 就</font></font><code>http://127.0.0.1:5000</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+可以了）。如果要更改它，请使用附加命令行参数</font></font><code>host</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>port</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，它们分别接受要绑定的主机 IP 和数字端口号。例如，如果您希望服务器仅侦听端口 8080 上的本地接口，则命令行将为</font></font></p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>octoprint serve --host=127.0.0.1 --port=8080
+</code></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="octoprint serve --host=127.0.0.1 --port=8080" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或者，可以通过配置文件定义要绑定的主机和端口。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想将 OctoPrint 作为守护进程运行（仅在 Linux 上支持），请使用</font></font></p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>octoprint daemon {start|stop|restart} [--pid PIDFILE]
+</code></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="octoprint daemon {start|stop|restart} [--pid PIDFILE]" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您不通过 提供自定义 pidfile 位置</font></font><code>--pid PIDFILE</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，它将在 处创建</font></font><code>/tmp/octoprint.pid</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您还可以指定配置文件或基本目录（基于</font></font><code>uploads</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><code>timelapse</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>logs</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件夹），例如：</font></font></p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>octoprint serve --config /path/to/another/config.yaml --basedir /path/to/my/basedir
+</code></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="octoprint serve --config /path/to/another/config.yaml --basedir /path/to/my/basedir" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要在安全模式下启动 OctoPrint（这将禁用所有未与 OctoPrint 捆绑在一起的第三方插件），请使用以下标志</font></font><code>--safe</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font></p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>octoprint serve --safe
+</code></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="octoprint serve --safe" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"></font><code>octoprint --help</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关可用命令行参数的更多信息，</font><font style="vertical-align: inherit;">请参阅参考资料。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OctoPrint 还在其源目录中附带了一个</font></font><code>run</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">脚本。您可以调用它来启动服务器。它采用与脚本相同的命令行参数</font></font><code>octoprint</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-configuration" class="anchor" aria-hidden="true" tabindex="-1" href="#configuration"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果未通过命令行指定，则</font></font><code>config.yaml</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OctoPrint 的配置文件应位于设置文件夹中，该文件夹位于</font></font><code>~/.octoprint</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Linux 上的 at、</font></font><code>%APPDATA%/OctoPrint</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Windows 上的 at 和</font></font><code>~/Library/Application Support/OctoPrint</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MacOS 上的 at 。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://docs.octoprint.org/en/master/configuration/config_yaml.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所有可用配置设置的全面概述可以在文档中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">找到
+</font><font style="vertical-align: inherit;">。请注意，最常用的配置设置也可以从 OctoPrint 的设置对话框中轻松编辑。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-special-thanks" class="anchor" aria-hidden="true" tabindex="-1" href="#special-thanks"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特别感谢</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://www.browserstack.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">跨浏览器测试服务由BrowserStack</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提供</font><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://www.pyvmmonitor.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分析是在PyVmMonitor</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的帮助下完成的</font><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://sentry.io" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">错误跟踪由Sentry</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提供支持和赞助</font><font style="vertical-align: inherit;">。</font></font></p>
+</article></div>
